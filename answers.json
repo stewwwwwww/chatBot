@@ -1,0 +1,56 @@
+[
+    {
+      "type": "greeting",
+      "users_input": ["hello", "hi", "hey"],
+      "app_response": "What's goood!",
+      "requirement": []
+    },
+    {
+      "type": "greeting",
+      "users_input": ["see you", "goodbye", "cya", "bye", "farewell"],
+      "app_response": "See you later!",
+      "requirement": []
+    },
+    {
+      "type": "greeting",
+      "users_input": ["nice", "to", "meet", "you"],
+      "app_response": "It is very nice to meet you too!",
+      "requirement": ["nice", "meet"]
+    },
+    {
+      "type": "question",
+      "users_input": ["how", "studying", "learn", "code", "coding", "develop", "study"],
+      "app_response": "Get started with Youtube crash courses!",
+      "requirement": ["learn", "code"]
+    },
+    {
+      "type": "question",
+      "users_input": ["what", "language", "do", "I", "speak"],
+      "app_response": "I speak Vietnamese and English fluently.",
+      "requirement": ["speak", "language"]
+    },
+    {
+      "type": "question",
+      "users_input": ["how", "old", "you"],
+      "app_response": "I am 20 years old.",
+      "requirement": ["how", "old", "you"]
+    },
+    {
+      "type": "question",
+      "users_input": ["story", "poem", "tale"],
+      "app_response": "It is gonna be too long for our convo",
+      "requirement": []
+    },
+    {
+      "type": "question",
+      "users_input": ["where", "do", "you", "live"],
+      "app_response": "I live in Kingston, ON, Canada",
+      "requirement": ["where", "live"]
+    },
+    {
+      "type": "question",
+      "users_input": ["where", "do", "I", "study", "university" ],
+      "app_response": "I go to Queen's in Kingston",
+      "requirement": ["university", "you"]
+    }
+  ]
