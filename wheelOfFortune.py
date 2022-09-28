@@ -94,8 +94,7 @@ def wheelOfFortune():
 
     #the word to guess
     word = chooseWord()
-
-    print("The word to guess is ", word)  
+ 
 
     
     currentRep = convertToUnderscores(word)   #convert the word to underscore
